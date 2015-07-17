@@ -137,7 +137,9 @@ Median steps per day (imputed) are: 10762
 
 The mean and median steps per day for the imputed data set differ from the mean and median steps per day for base data set.  
 
-The impact of imputing missing data is to increase the mean and median total daily number of steps.  The frequency distribution has also changed; there are fewer days with less than 5000 steps and more days with between 10000 and 15000 steps.
+The impact of imputing missing data is to increase the mean and median total daily number of steps compared to the base data set.  The frequency distribution has also changed;  
+a.  There are fewer days with less than 5000 steps and more days with between 10000 and 15000 steps.  
+b.  The mean and median have converged.  
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
@@ -178,3 +180,5 @@ axis(side=2, at=seq(from=0, to=maxSteps, by=100))
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-14-1.png) 
+
+Yes, there are differences in activity patterns.
